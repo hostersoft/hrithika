@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Dhyan</title>
+</head>
+<body>
+<style>
+.name{
+animation-name: name;
+animation-iteration-count: infinite;
+animation-duration: 3s; 
+}
+@keyframes name {
+0%{
+color: green;
+}
+25%{
+color: red;
+}
+50%{
+color: blue;
+}
+75%{
+color: yellow;
+}
+100%{
+color: green;
+}
+}
+</style>
+<script>
+function myFunction() {
+let name = "hrithika";
+
+let ask = prompt("What is Your name?");
+
+if(ask == name){
+alert('ere website da owner')
+}else{
+alert('ere undu website da owner ejjer!')
+}
+}
+</script>
+<h1 class='name'>Hrithika Poojary</h1>
+<button onClick='myFunction()'>Click here</button>
+</body>
+</html>
